@@ -2,9 +2,12 @@ name: Feature Request
 description: Suggest a new feature or enhancement.
 title: "[Feature] Your feature title"
 labels: 
-  - enhancement, bug
+  - enhancement
+  - bug
 body:
   - type: markdown
+    attributes:
+      value: "**Describe the feature you'd like**"
   - type: textarea
     id: feature-description
     attributes:
@@ -13,6 +16,8 @@ body:
       placeholder: "Enter your feature request here"
 
   - type: markdown
+    attributes:
+      value: "**Is this feature request related to a problem? Please describe.**"
   - type: textarea
     id: problem-description
     attributes:
@@ -21,6 +26,8 @@ body:
       placeholder: "Describe any related problem here"
 
   - type: markdown
+    attributes:
+      value: "**Additional context**"
   - type: textarea
     id: additional-context
     attributes:
