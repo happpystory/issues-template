@@ -7,7 +7,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: "**Describe the feature you'd like**"
+      value: ""
   - type: textarea
     id: feature-description
     attributes:
