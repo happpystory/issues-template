@@ -1,0 +1,35 @@
+name: Feature Request
+description: Suggest a new feature or enhancement.
+title: "[Feature] Your feature title"
+labels: 
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: "**Describe the feature you'd like**"
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Describe the feature you'd like"
+      description: "Provide a clear and concise description of what you'd like."
+      placeholder: "Enter your feature request here"
+
+  - type: markdown
+    attributes:
+      value: "**Is your feature request related to a problem? Please describe.**"
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: "Is this feature request related to a problem?"
+      description: "If applicable, provide details on the problem the feature would solve."
+      placeholder: "Describe any related problem here"
+
+  - type: markdown
+    attributes:
+      value: "**Additional context**"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional context"
+      description: "Add any other context or screenshots related to the feature request."
+      placeholder: "Enter any additional context here"
